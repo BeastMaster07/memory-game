@@ -18,7 +18,7 @@ body {
 
 body {
     background-image :linear-gradient(to bottom, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('../img/back.jpg'); 
-    /* background-size: cover; */
+    background-size: cover;
     height: 100%;
     font-family: 'Coda', cursive;
 }
@@ -45,7 +45,6 @@ h1 {
 .deck {
     width: 660px;
     min-height: 680px;
-    /* background: linear-gradient(160deg, #02ccba 0%, #aa7ecd 100%); */
     background: linear-gradient(160deg,#fa9630 , #db8419);
     padding: 32px;
     border-radius: 10px;
@@ -60,9 +59,7 @@ h1 {
 .card {
     height: 125px;
     width: 125px;
-    /* background: #2e3d49; */
     background: #684115 ;
-    /* opacity: 0.9; */
     font-size: 0;
     color: #ffffff;
     border-radius: 8px;
@@ -134,7 +131,6 @@ h1 {
 .score-panel {
     width: 600px;    
     margin-bottom: -15px;
-    /* color: #593405; */
     color: #E5681F;
     display: flex;
     align-items: center;
@@ -178,7 +174,6 @@ h1 {
     font-family: 'Raleway', sans-serif;
     font-weight: 400;
     color: #052F61; 
-    /* color: #154654; */
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
@@ -198,7 +193,6 @@ h1 {
 .afterText_stars li {
     display: inline-block;
 }
-
 
 #playAgain_yes {
     cursor: pointer;
